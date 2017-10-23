@@ -50,8 +50,8 @@
 							<br/>
 						</c:forEach>
 						</td> --%>
-						<td><fmt:formatDate value="${entry.startDate}" pattern="dd/MM/yyyy " /></td>
-						<td><fmt:formatDate value="${entry.endDate}" pattern="dd/MM/yyyy " /></td>
+						<td><fmt:formatDate value="${entry.startDate}" pattern="MM/dd/yyyy " /></td>
+						<td><fmt:formatDate value="${entry.endDate}" pattern="MM/dd/yyyy " /></td>
 						<td><a href='javascript:editEntry(${entry.id})'><span class="glyphicon glyphicon-pencil"></span> </a>|
 							<a href='javascript:deleteEntry(${entry.id })'><span class="glyphicon glyphicon-trash"></span></a></td>
 					</tr>

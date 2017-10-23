@@ -12,7 +12,7 @@ INSERT INTO `user_role` VALUES (1,'admin','ROLE_ADMIN'),(2,'faculty','ROLE_FACUL
 insert into entry values(1, "Aug 2016", 100, 50, 10, "2016-08-15", "2017-02-15"),
 						(2, "Oct 2016", 100, 50, 10, "2016-10-15", "2017-04-15");
 						
-insert into student value (1,1,"student","Huy","Le","1983-08-14","studenttest@gmail.com",0);
+insert into student values (1,"student","VuTuan","Hoang","1993-08-14","hoangvutuan@gmail.com");
 
 -- block of Aug entry
 insert into block values(1, "Aug", "2016-08-15", "2016-09-14"),

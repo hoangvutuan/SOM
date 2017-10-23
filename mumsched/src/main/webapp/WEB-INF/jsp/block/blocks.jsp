@@ -45,8 +45,8 @@
 							<br/>
 						</c:forEach>
 						</td>
-						<td><fmt:formatDate value="${block.startDate}" pattern="dd/MM/yyyy " /></td>
-						<td><fmt:formatDate value="${block.endDate}" pattern="dd/MM/yyyy " /></td>						
+						<td><fmt:formatDate value="${block.startDate}" pattern="MM/dd/yyyy " /></td>
+						<td><fmt:formatDate value="${block.endDate}" pattern="MM/dd/yyyy " /></td>						
 						<td><a href='javascript:editBlock(${block.id})'><span class="glyphicon glyphicon-pencil"></span> </a>|
 							<a href='javascript:deleteBlock(${block.id })'><span class="glyphicon glyphicon-trash"></span></a></td>
 					</tr>

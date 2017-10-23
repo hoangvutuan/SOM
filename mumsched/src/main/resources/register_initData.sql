@@ -1,15 +1,13 @@
 USE `mumsched`;
 
-insert into user value ("huyle1","1234",1);
+insert into user value ("vutuan1","1234",1);
 
-INSERT INTO `user_role` VALUES (5,'huyle1','ROLE_STUDENT');
+INSERT INTO `user_role` VALUES (5,'vutuan1','ROLE_STUDENT');
 
 insert into entry value (1,"Oct 2016",100,50,10,"2016-01-01","2016-01-01"); 
 insert into entry value (2,"Aug 2016",100,50,10,"2016-05-01","2016-05-01");
 
-
-insert into student value (1,1,"huyle","Huy","Le","1983-08-14","studenttest@gmail.com",0);
-insert into student value (2,1,"huyle1"," Other Huy","Le","1990-03-14","studenttest123@gmail.com",1);
+insert into student values (1,"student","Vu","Dam","1993-08-14","damle@gmail.com");
 
 insert into block value (1,"Jan","2016-01-01","2016-01-28");
 insert into block value (2,"Feb","2016-02-01","2016-02-28");
@@ -21,7 +19,7 @@ insert into course value (1,"420","Computer science", "A");
 insert into course value (2,"425","Software engineer", "A");
 insert into course value (3,"428","Algorithm","A");
 
-insert into faculty values (1,"faculty","Anh","Nguyen","1993-08-14","amazingcoder@gmail.com","A");
+insert into faculty values (1,"faculty","Vu","Dam","1993-08-14","amazingcoder@gmail.com","A");
 
 insert into section value (1,"CSE",1,1,1,25);
 insert into section value (2,"SE",1,2,1,25);
